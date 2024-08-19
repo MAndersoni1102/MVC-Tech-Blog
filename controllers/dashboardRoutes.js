@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const { Comment, Post } = require('../models');
-const withAuth = require('../utils/auth');
+const withAuth = require('../utils/auth.js');
 
 // Route to get the dashboard.
 router.get('/', withAuth, async (req, res) => {
