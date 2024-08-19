@@ -12,30 +12,30 @@
       <ul>
       <li><a
         href='/'
-        {{!-- class='' Add a class later --}}
+        class='hover-blue' 
         >Home</a></li>
       {{#if loggedIn}}
         <li><a
           href='/dashboard'
-          {{!-- class='' Add a class later --}}
+        class='hover-blue' 
         >Dashboard</a></li>
       {{else}}
         <li><a
           href='/login'
-          {{!-- class='' Add a class later --}}
+        class='hover-blue' 
         >Dashboard</a></li>
       {{/if}}
       {{#if loggedIn}}
         <li><a
           href='/logout'
           id='logout'
-          {{!-- class='' Add a class later --}}
+        class='hover-blue' 
         >Logout</a></li>
       {{else}}
         <li><a
           href='/login'
           id='login-form'
-          {{!-- class='' Add a class later --}}
+        class='hover-blue' 
         >Login</a></li>
       {{/if}}
       </ul>
