@@ -1,0 +1,15 @@
+<!-- Display all posts on the Main Page -->
+<div class='container'>
+      <h1>Main Page</h1>
+      {{#each postArray as |post|}}
+      <section class="post-section">
+        <a href='/post/{{post.id}}' class='post-box'>
+          <div class='post-header'>
+            <h3 class='post-title'>Title: {{post.title}}</h3>
+            <p class='post-author'>Author: {{User.username}}</p>
+          </div>
+          <div class='post-date'>Posted on: {{format_date}}</div>
+        </a>
+      </section>
+      {{/each}}
+    </div>

@@ -1,0 +1,53 @@
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>Tech Dev</title>
+    <link rel='stylesheet' href='/css/jass.css' />
+    <link rel='stylesheet' href='/css/style.css' />
+  </head>
+  <body>
+    <header>
+      <h1>Blog</h1>
+      <ul>
+      <li><a
+        href='/'
+        {{!-- class='' Add a class later --}}
+        >Home</a></li>
+      {{#if loggedIn}}
+        <li><a
+          href='/dashboard'
+          {{!-- class='' Add a class later --}}
+        >Dashboard</a></li>
+      {{else}}
+        <li><a
+          href='/login'
+          {{!-- class='' Add a class later --}}
+        >Dashboard</a></li>
+      {{/if}}
+      {{#if loggedIn}}
+        <li><a
+          href='/logout'
+          id='logout'
+          {{!-- class='' Add a class later --}}
+        >Logout</a></li>
+      {{else}}
+        <li><a
+          href='/login'
+          id='login-form'
+          {{!-- class='' Add a class later --}}
+        >Login</a></li>
+      {{/if}}
+      </ul>
+    </header>
+    <main>
+      {{{body}}}
+    </main>
+    <footer>
+      <p>&copy; 2024 TechDev </p>
+    </footer>
+  </body>
+  {{#if loggedIn}}
+    <script src='/js/logout.js'></script>
+  {{/if}}
+</html>

@@ -1,0 +1,23 @@
+<!-- The dashboard view will display the user's posts, also it provides a user an option for a new post upon sign up. -->
+<div class='container'>
+      <h1>Dashboard</h1>
+      <p>Welcome to your dashboard {{userLogged.dataValues.username}}!</p>
+      <h2>Your Posts</h2>
+      {{#if loggedIn}}
+        <a href='/api/posts/new' class='btn btn-primary'>New Post</a>
+      {{/if}}
+      {{#each postArray}}
+
+        <section class='post-section'>
+          <a href='/api/posts/editPost/{{id}}' class='post-box'>
+            <input type='hidden' id='post-id' value='{{id}}' />
+            <div class="post-header">
+            <h3 class="post-title">Title: {{title}}</h3>
+            <p>By: {{User.username}} </p>
+            </div>
+            <div class="post-contents">Content: {{post_content}}</div>
+            <div class='post-date'>Posted on: {{format_date}}</div>
+          </a>
+        </section>
+      {{/each}}
+    </div>
