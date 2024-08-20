@@ -1,13 +1,13 @@
 # Welcome my project! This is a simple yet robust blogging platform built using the Model-View-Controller (MVC) architecture. The application is designed to allow users to create, edit, and manage blog posts efficiently. The project is built with modern web technologies and follows best practices to ensure scalability and maintainability.
 
 # Table of Contents
-Features
-Technologies Used
-Installation
-Usage
-Configuration
-Contributing
-License
+## Features
+## Technologies Used
+## Installation
+## Usage
+## Configuration
+## Contributing
+## License
 # Features
 MVC Architecture: Organized structure separating models, views, and controllers for cleaner code and easier maintenance.
 User Authentication: Secure login and registration system for users.
@@ -23,13 +23,13 @@ Handlebars: Templating engine for rendering views.
 Yarn: Package manager to manage project dependencies.
 dotenv: Environment variable management.
 # Installation
-1. Clone the Repository,
-2.Install Dependencies,
-3. Copy code,
-4. run yarn install,
-5.Create a .env file in the root directory and add the following variables,
-6.Set up the database schema,
-7.Run using yarn start
+Step 1: Clone the Repository
+Step 2: Install Dependencies
+Step 3: Copy Code
+Step 4: In your terminal run yarn install
+Step 5: Create a .env file in the root directory and add the following variables
+Step 6: Set up the database schema,
+Step 7: Run using yarn start
 
 # Usage
 Navigate to http://localhost:3000 to access the blog site.
