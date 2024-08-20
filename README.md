@@ -1,4 +1,4 @@
-#Welcome to the Blog Site project! This is a simple yet robust blogging platform built using the Model-View-Controller (MVC) architecture. The application is designed to allow users to create, edit, and manage blog posts efficiently. The project is built with modern web technologies and follows best practices to ensure scalability and maintainability.
+# Welcome my project! This is a simple yet robust blogging platform built using the Model-View-Controller (MVC) architecture. The application is designed to allow users to create, edit, and manage blog posts efficiently. The project is built with modern web technologies and follows best practices to ensure scalability and maintainability.
 
 # Table of Contents
 Features
@@ -23,12 +23,12 @@ Handlebars: Templating engine for rendering views.
 Yarn: Package manager to manage project dependencies.
 dotenv: Environment variable management.
 # Installation
-1. Clone the Repository:
-2.Install Dependencies:
-3. Copy code
-4. run yarn install
-5.Create a .env file in the root directory and add the following variables:
-6.Set up the database schema:
+1. Clone the Repository,
+2.Install Dependencies,
+3. Copy code,
+4. run yarn install,
+5.Create a .env file in the root directory and add the following variables,
+6.Set up the database schema,
 7.Run using yarn start
 
 # Usage
